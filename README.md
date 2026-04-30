@@ -16,6 +16,19 @@ The system transforms accounting movements into an analytical financial model th
 - interactive Power BI dashboards
 - dynamic fiscal year and month filters
 
+## Architecture
+
+The system follows a structured data flow:
+
+Business Central → Accounting Entries → Data Model → Multi-layer Chart of Accounts → DAX Measures → Power BI Dashboard
+
+### Key Design Principles
+
+- Centralized fact table based on accounting movements
+- Multi-layer chart of accounts for flexible financial reclassification
+- Separation between raw data, business logic and visualization
+- Scalable model for adding new KPIs and analysis views
+
 ## Data Model
 The relational model is centered on the accounting movements fact table.
 
