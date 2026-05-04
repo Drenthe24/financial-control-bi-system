@@ -105,3 +105,9 @@ The automated refresh eliminates the need for manual reporting processes and sig
 - [Data Model Design](docs/data-model.md)
 - [DAX Measures](docs/dax-measures.md)
 - [Use Cases](docs/use-cases.md)
+
+## Disclaimer
+
+This project is based on a real-world use case.
+
+All data, structures and business logic have been anonymized and simplified for demonstration purposes.
