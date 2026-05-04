@@ -1,5 +1,7 @@
 # Financial Control BI System
 
+This system integrates financial modeling, data architecture and KPI interpretation to support real business decisions.
+
 ## Overview
 This project presents a Power BI-based financial control system designed to monitor financial performance, cash flow and key management KPIs.
 
