@@ -85,3 +85,9 @@ The solution improves:
 - speed of financial analysis
 - decision-making quality
 - scalability of management reporting
+
+## Documentation
+
+- [Data Model Design](docs/data-model.md)
+- [DAX Measures](docs/dax-measures.md)
+- [Use Cases](docs/use-cases.md)
