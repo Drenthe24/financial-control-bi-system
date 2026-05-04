@@ -22,6 +22,14 @@ The system follows a structured data flow:
 
 Business Central → Accounting Entries → Data Model → Multi-layer Chart of Accounts → DAX Measures → Power BI Dashboard
 
+## Data Model Schema
+
+![Data Model](assets/data-model.png)
+
+## Dashboard Overview
+
+![Dashboard](assets/dashboard-overview.png)
+
 ### Key Design Principles
 
 - Centralized fact table based on accounting movements
