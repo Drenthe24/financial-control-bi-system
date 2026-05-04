@@ -75,3 +75,37 @@ VAR TotalFinancialDebt =
 RETURN
     -TotalFinancialDebt - [Cash Flow]
 ```
+## Net Debt Ratio
+
+This measure calculates the ratio between Net Financial Position and Equity, providing an indicator of the company’s financial leverage.
+
+```DAX
+Net Debt Ratio =
+VAR NetFinancialPosition =
+    [Net Financial Position]
+
+VAR Equity =
+    CALCULATE(
+        SUM(AccountingEntries[Amount]),
+        ChartOfAccounts[ThirdLayerCode] = "EQUITY"
+    )
+
+RETURN
+    DIVIDE(NetFinancialPosition, ABS(Equity))
+```
+
+## Debt Sustainability Ratio
+
+This measure compares Net Financial Position with EBITDA, providing an indicator of the company’s ability to sustain its financial debt through operating performance.
+
+```DAX
+Debt Sustainability Ratio =
+VAR EBITDAValue =
+    [EBITDA]
+
+VAR NetFinancialPosition =
+    [Net Financial Position]
+
+RETURN
+    DIVIDE(NetFinancialPosition, EBITDAValue)
+```
