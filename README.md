@@ -88,6 +88,18 @@ The solution improves:
 - decision-making quality
 - scalability of management reporting
 
+## Data Refresh & Automation
+
+The system is designed to automatically update on a daily basis through scheduled data refresh.
+
+This ensures:
+
+- up-to-date financial data without manual intervention
+- continuous monitoring of business performance
+- reliable and timely decision support
+
+The automated refresh eliminates the need for manual reporting processes and significantly improves efficiency and data accuracy.
+
 ## Documentation
 
 - [Data Model Design](docs/data-model.md)
